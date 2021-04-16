@@ -234,3 +234,34 @@ Received Import Request.
   path: Assets/Scenes/4.unity
   artifactKey: Guid(553dd7e6e02c14b48a81a5d378434c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/4.unity using Guid(553dd7e6e02c14b48a81a5d378434c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a97a392d562ce0f188b52c27e00301e') in 0.100290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4148.241683 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(b75bf504e8e05a24391c60e39c7c5c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(b75bf504e8e05a24391c60e39c7c5c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb88366e674d24a5d458d08761bb45ef') in 0.521199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.809261 seconds.
+  path: Assets/Ground materials FD/NewLayer.terrainlayer
+  artifactKey: Guid(a04ae6cdf3227044986123299745b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground materials FD/NewLayer.terrainlayer using Guid(a04ae6cdf3227044986123299745b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6999ce6df836e5079a7e147e00316146') in 0.129560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.482890 seconds.
+  path: Assets/QS
+  artifactKey: Guid(94685715c9c702943aae41fb19ac8bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QS using Guid(94685715c9c702943aae41fb19ac8bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95460ff0d59321b21f6fa21dd070c763') in 0.022053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.638246 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(7c8c05c8985a2a842946c43d7265bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(7c8c05c8985a2a842946c43d7265bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5b849fdc741d6b34cefa5b81e97876') in 0.003214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Prefab/Player.prefab
+  artifactKey: Guid(e5f65b9c37b3a1c4aacfdeb512e51535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Player.prefab using Guid(e5f65b9c37b3a1c4aacfdeb512e51535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7c3d93ae771885a21a12a31e5e8b58') in 0.372855 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
