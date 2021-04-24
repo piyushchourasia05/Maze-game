@@ -30,16 +30,23 @@ public class Gun : MonoBehaviour
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
             Debug.Log(hit.transform.name);
-            Enimies target = hit.transform.GetComponent<Enimies>();
-            if (target != null)
+            Turret turret = hit.transform.GetComponent<Turret>();
+            Mine mine = hit.transform.GetComponent<Mine>();
+            if (turret != null)
             {
-                target.TakeDamage(damage);
+                turret.TakeDamage(damage);
+            }
+
+            if (mine != null)
+            {
+                mine.TakeDamage(damage);
             }
 
             if (hit.rigidbody != null)
             {
                 hit.rigidbody.AddForce(-hit.normal * impactForce);
             }
+
 
             GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(impactGO, 2f);

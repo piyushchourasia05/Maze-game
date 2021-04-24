@@ -1,38 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using EZCameraShake;
 
-public class Mine : MonoBehaviour
+public class Turret : MonoBehaviour
 {
-    public float health = 40f;
 
-    public float blastRadius = 50f;
-    public float blastForce = 700f;
+    public float health = 100f;
+
+    public float blastRadius = 100f;
+    public float blastForce = 70f;
 
     public GameObject explosionEffect;
     public bool hasExploded = false;
 
-
-    void OnTriggerEnter(Collider player)
-    {
-        if (player.tag == "Player" && !hasExploded)
-        {
-            Explode();
-            hasExploded = true;
-        }
-    }
-
-    public void TakeDamage(float amount)
+    public void TakeDamage (float amount)
     {
         health -= amount;
         if (health <= 0f)
         {
-            Explode();
+            TurretExplode();
         }
     }
 
-    void Explode()
+
+    void TurretExplode()
     {
         Instantiate(explosionEffect, transform.position, transform.rotation);
 
@@ -45,11 +35,11 @@ public class Mine : MonoBehaviour
                 rb.AddExplosionForce(blastForce, transform.position, blastRadius);
             }
         }
-        CameraShaker.Instance.ShakeOnce(6f, 6f, .1f, 1f);
+        CameraShaker.Instance.ShakeOnce(0.5f, 1f, .1f, 1f);
 
         Destroy(gameObject);
 
-        Debug.Log("Boom!");
+        Debug.Log("Turret Destroyed");
 
     }
 

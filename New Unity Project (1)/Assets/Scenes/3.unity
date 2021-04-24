@@ -502,6 +502,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  blastRadius: 100
+  blastForce: 70
+  explosionEffect: {fileID: 0}
+  hasExploded: 0
 --- !u!1 &205287015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,6 +1310,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4179731739974834626}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &645219939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645219938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0941def259c445543b1678a782ddbe1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 100
+  playerBody: {fileID: 1356228622}
 --- !u!114 &645219943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1340,7 +1358,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d5181d23f8ef0641bdc416739ff37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 70
+  blastRadius: 100
+  blastForce: 70
+  explosionEffect: {fileID: 1828176872806910, guid: 64891a0eb28db934898420d80ca07cb3,
+    type: 3}
+  hasExploded: 0
 --- !u!54 &712979478
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1368,8 +1391,24 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 4.928711, y: 2.9839172, z: 7.8635254}
+  m_Center: {x: -0.32373047, y: 0.19587708, z: 1.6676025}
+--- !u!114 &712979480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712979476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab8353b5ebd32545867da143199a814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultPosInfluence: {x: 0.15, y: 0.15, z: 0.15}
+  DefaultRotInfluence: {x: 1, y: 1, z: 1}
+  RestPositionOffset: {x: 0, y: 0, z: 0}
+  RestRotationOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &720007988
 GameObject:
   m_ObjectHideFlags: 0
@@ -2156,6 +2195,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  blastRadius: 100
+  blastForce: 70
+  explosionEffect: {fileID: 0}
+  hasExploded: 0
 --- !u!1 &1093378361
 GameObject:
   m_ObjectHideFlags: 0
@@ -2708,6 +2751,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1356228622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5180617985022221481, guid: 8a67b4a593ce36c4bae4ca7a62ed1412,
+    type: 3}
+  m_PrefabInstance: {fileID: 4179731739974834626}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1358065424 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5180617984500143436, guid: 8a67b4a593ce36c4bae4ca7a62ed1412,
@@ -3123,7 +3172,6 @@ GameObject:
   - component: {fileID: 1425723147}
   - component: {fileID: 1425723146}
   - component: {fileID: 1425723145}
-  - component: {fileID: 1425723149}
   - component: {fileID: 1425723150}
   m_Layer: 0
   m_Name: mine
@@ -3203,8 +3251,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425723144}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8960.06, y: 282.47, z: -2675.55}
+  m_LocalRotation: {x: -0, y: -0, z: 0.6063577, w: 0.79519206}
+  m_LocalPosition: {x: -8960.06, y: 285.19, z: -2675.55}
   m_LocalScale: {x: 2.768565, y: 0.20966, z: 2.726033}
   m_Children:
   - {fileID: 1772711170}
@@ -3212,20 +3260,7 @@ Transform:
   - {fileID: 1528757493}
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1425723149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1425723144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d5181d23f8ef0641bdc416739ff37a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 74.653}
 --- !u!114 &1425723150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3238,6 +3273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd112594ea8ebe64780dc918fa3792ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 40
   blastRadius: 50
   blastForce: 700
   explosionEffect: {fileID: 1528757492}
@@ -3838,12 +3874,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8e39b2c8ceae31b41883c0ec3ac7f52c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8957.92
+      value: -8964.37
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e39b2c8ceae31b41883c0ec3ac7f52c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 284.44
+      value: 287.37
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e39b2c8ceae31b41883c0ec3ac7f52c,
         type: 3}
