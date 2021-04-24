@@ -386,3 +386,32 @@ System memory in use after: 82.4 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1691.
 Total: 6.733200 ms (FindLiveObjects: 0.318100 ms CreateObjectMapping: 0.132500 ms MarkObjects: 6.021900 ms  DeleteObjects: 0.256500 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004970 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.291 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1154 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1694.
+Total: 5.276400 ms (FindLiveObjects: 0.336700 ms CreateObjectMapping: 0.116400 ms MarkObjects: 4.609400 ms  DeleteObjects: 0.209900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 404.601597 seconds.
+  path: Assets/Scenes/Player.prefab
+  artifactKey: Guid(8a67b4a593ce36c4bae4ca7a62ed1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Player.prefab using Guid(8a67b4a593ce36c4bae4ca7a62ed1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70878b7604de5ea020607138496b61db') in 8.176621 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
