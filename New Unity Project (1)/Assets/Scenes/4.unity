@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5354,6 +5354,16 @@ PrefabInstance:
       propertyPath: impactEffect
       value: 
       objectReference: {fileID: 1778395503}
+    - target: {fileID: 5180617984500143436, guid: 8a67b4a593ce36c4bae4ca7a62ed1412,
+        type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180617984609460664, guid: 8a67b4a593ce36c4bae4ca7a62ed1412,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5180617984609460666, guid: 8a67b4a593ce36c4bae4ca7a62ed1412,
         type: 3}
       propertyPath: playerBody
@@ -5417,6 +5427,11 @@ PrefabInstance:
     - target: {fileID: 5180617985022221494, guid: 8a67b4a593ce36c4bae4ca7a62ed1412,
         type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180617985022221494, guid: 8a67b4a593ce36c4bae4ca7a62ed1412,
+        type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
