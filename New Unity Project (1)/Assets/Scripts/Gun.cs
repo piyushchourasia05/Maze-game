@@ -29,17 +29,11 @@ public class Gun : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
-            Turret turret = hit.transform.GetComponent<Turret>();
-            Mine mine = hit.transform.GetComponent<Mine>();
-            if (turret != null)
-            {
-                turret.TakeDamage(damage);
-            }
+            Explosion explosion = hit.transform.GetComponent<Explosion>();
 
-            if (mine != null)
+            if (explosion != null)
             {
-                mine.TakeDamage(damage);
+                explosion.TakeDamage(damage);
             }
 
             if (hit.rigidbody != null)

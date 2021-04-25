@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using EZCameraShake;
 
-public class Mine : MonoBehaviour
+public class Explosion : MonoBehaviour
 {
     public float health = 40f;
 
