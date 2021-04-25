@@ -45,7 +45,7 @@ public class Mine : MonoBehaviour
                 rb.AddExplosionForce(blastForce, transform.position, blastRadius);
             }
         }
-        CameraShaker.Instance.ShakeOnce(6f, 6f, .1f, 1f);
+      
 
         Destroy(gameObject);
 
