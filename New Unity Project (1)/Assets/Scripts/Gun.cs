@@ -1,7 +1,10 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class Gun : MonoBehaviour
 {
+    
     public float damage = 10f;
     public float range = 100f;
     public float impactForce = 30f;
@@ -15,6 +18,7 @@ public class Gun : MonoBehaviour
 
     void Update()
     {
+       
         if ((Input.GetButton("Fire1") || Input.GetKey(KeyCode.Keypad0)) && Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + 1f / fireRate;
@@ -25,7 +29,7 @@ public class Gun : MonoBehaviour
     void Shoot()
     {
         muzzleFlash.Play();
-
+       
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
@@ -45,7 +49,8 @@ public class Gun : MonoBehaviour
             GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(impactGO, 2f);
         }
-
+       
     }
+   
 
 }

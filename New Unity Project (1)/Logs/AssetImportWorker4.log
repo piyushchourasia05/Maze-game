@@ -1,0 +1,1673 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.2f1 (e5d502d80fbb) revision 15062274'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 8078 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\cod\2021.1.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/repository/Game/New Unity Project (1)
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+56703
+Successfully changed project path to: E:/repository/Game/New Unity Project (1)
+E:/repository/Game/New Unity Project (1)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 214.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
+[Subsystems] Discovering subsystems at path E:/cod/2021.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/repository/Game/New Unity Project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   Intel
+    VRAM:     4039 MB
+    Driver:   27.20.100.8935
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'E:/cod/2021.1.2f1/Editor/Data/Managed'
+Mono path[1] = 'E:/cod/2021.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/cod/2021.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/cod/2021.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004279 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 260.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.189 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.121 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1828 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.9 MB.
+System memory in use after: 185.7 MB.
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 6.444800 ms (FindLiveObjects: 0.382700 ms CreateObjectMapping: 0.185500 ms MarkObjects: 5.318900 ms  DeleteObjects: 0.555200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/scifi_gun_UV00000000.jpg
+  artifactKey: Guid(9bc33caf92a0d1b4da5b7ea38f1ab9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scifi_gun_UV00000000.jpg using Guid(9bc33caf92a0d1b4da5b7ea38f1ab9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450d48e96cf06c0090cd45742ccc4098') in 1.220477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001665 seconds.
+  path: Assets/scifigun_scifi_gun_barrel_specular.jpg
+  artifactKey: Guid(eb0b48f721f2b2843a824b97f6250671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scifigun_scifi_gun_barrel_specular.jpg using Guid(eb0b48f721f2b2843a824b97f6250671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb67b2c0b66a749cbef8c2b4259e811a') in 0.039706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000959 seconds.
+  path: Assets/scifigun_scifi_gun_barrel_nmap.jpg
+  artifactKey: Guid(062a0cf9868fa6e4f8a12f69f68f60ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scifigun_scifi_gun_barrel_nmap.jpg using Guid(062a0cf9868fa6e4f8a12f69f68f60ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43103ef6bfea99e9b765a73cd8931916') in 0.050344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/Scenes/3.unity
+  artifactKey: Guid(1465aeea936f7fd409b9176044ab9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3.unity using Guid(1465aeea936f7fd409b9176044ab9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae8600ccbf3793c5bc045925569c5f9') in 0.013562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000939 seconds.
+  path: Assets/scifigun_scifi_gun_main_color.jpg
+  artifactKey: Guid(9c8cf69bfac77ca45875b5cdcb3ddd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scifigun_scifi_gun_main_color.jpg using Guid(9c8cf69bfac77ca45875b5cdcb3ddd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbe19a9269b7b7a490353071a9eb260') in 0.048398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000848 seconds.
+  path: Assets/scifigun_scifi_gun_main_specular.jpg
+  artifactKey: Guid(ca369a120411f12468e86c1669c90d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scifigun_scifi_gun_main_specular.jpg using Guid(ca369a120411f12468e86c1669c90d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92968011b038b50e46d3a25a3ccbe712') in 0.049835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000740 seconds.
+  path: Assets/scifigun_scifi_gun_barrel_color.jpg
+  artifactKey: Guid(95ee9348ff9060345a4538948ce2948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scifigun_scifi_gun_barrel_color.jpg using Guid(95ee9348ff9060345a4538948ce2948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c788bb14ec85dc4d40712867356b0541') in 0.021049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/scifigun_scifi_gun_main_nmap.jpg
+  artifactKey: Guid(20845bd9022526d4c83bd4e10adb6132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scifigun_scifi_gun_main_nmap.jpg using Guid(20845bd9022526d4c83bd4e10adb6132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353e5b923e52ab6795901810f4e3e608') in 0.027764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Scenes/Screenshot (41).png
+  artifactKey: Guid(237b5edbc01cbbe4088010728f3f42c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Screenshot (41).png using Guid(237b5edbc01cbbe4088010728f3f42c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ffe8b9222c5840b72248c63301fe22') in 0.039064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001584 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(3403e0c540461d9479a289642bf10e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(3403e0c540461d9479a289642bf10e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b74b0d3b2b58a7920399e53b12e606') in 0.063471 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.514 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.6 MB.
+System memory in use after: 203.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2453.
+Total: 9.936900 ms (FindLiveObjects: 0.533700 ms CreateObjectMapping: 0.256000 ms MarkObjects: 8.253000 ms  DeleteObjects: 0.890500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.962 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1750 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.3 MB.
+System memory in use after: 203.4 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2456.
+Total: 7.568900 ms (FindLiveObjects: 0.438000 ms CreateObjectMapping: 0.214900 ms MarkObjects: 6.345100 ms  DeleteObjects: 0.567600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 251.896614 seconds.
+  path: Assets/FirstPersion AIO Pack
+  artifactKey: Guid(33b1675adab0f374eb96f7ca0d918df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack using Guid(33b1675adab0f374eb96f7ca0d918df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46aec8e2fd8b3d139a56407f38316b7') in 0.011896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.050074 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(74af212c90aa5c74eac16b8ab07e748d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(74af212c90aa5c74eac16b8ab07e748d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687523293f2fa19a9d0ca7032feb2e7b') in 0.012658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.521661 seconds.
+  path: Assets/Scripts/TurretAim.cs
+  artifactKey: Guid(917208be1d05b4a4eb7813f624767205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TurretAim.cs using Guid(917208be1d05b4a4eb7813f624767205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114a25427ec28992a64589e65064d0c1') in 0.167676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.092934 seconds.
+  path: Assets/Scripts/Bullet.cs
+  artifactKey: Guid(33ac7ed0068a9144e86207566449804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bullet.cs using Guid(33ac7ed0068a9144e86207566449804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69901682723d5377232bba22d6633979') in 0.010430 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.464 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1750 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.5 MB.
+System memory in use after: 203.5 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2459.
+Total: 6.995700 ms (FindLiveObjects: 0.392500 ms CreateObjectMapping: 0.217000 ms MarkObjects: 5.770400 ms  DeleteObjects: 0.613700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 460.767867 seconds.
+  path: Assets/Prefab/mine.prefab
+  artifactKey: Guid(f992311e6e4e440479e5c48f8738859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/mine.prefab using Guid(f992311e6e4e440479e5c48f8738859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42913cdf12b1a280447e1f13190e17e5') in 8.913955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.023891 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec95036ec944c4a7846b00a9d26e8e2') in 0.101627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.012818 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deaa0000cb980cef1051260e30bda7c') in 0.018358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.918008 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29151c798da4e84a7f73391e43a406d8') in 0.010197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.674964 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0b785f2247e428df2d937efa589d0a') in 0.010659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.095300 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ad1094aac48af49c5b4a35e02e0a9d') in 0.011564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.888408 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9640182aa8c1118488b9b455e2fe401') in 0.010354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.584873 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffb1e03e1d14eedabc5efbc3760a537') in 0.020348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.182094 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7c541be37dd08362f55e0238ff46a1') in 0.009079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.726059 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddda720054dfab448f334e3a62aec9d9') in 0.012783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.456927 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b3420727b6dbb84e13ad6dc1b73bc1') in 0.009268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.044876 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec4e547924577f14105ad743f1ceac0') in 0.008385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.679168 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd925e28f86aad0631ba3a1d2cf86507e') in 0.016110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.233636 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a9f95852e5db238df9b9711ec257cb') in 0.015151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.743254 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10d9f1c8422f642967d1b8dfcd1e494') in 0.015819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.518007 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f45361e32092350f848e92420278f6') in 0.009456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.471351 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d79bd694ed3e604248a384d7c09254b') in 0.013593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.574179 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e824c2f3291ff03d0470a275e7e727') in 0.008400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.462430 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f05c01f89ff12c6286f17ab3f3462b') in 0.017717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.311446 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5eef678fb5229121e5938d4c52388c') in 0.017385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.839373 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a520ab92a0f9b64bd034bfe7973df6') in 0.022842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.772301 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a46c2413e233caa66a9b7211dd7ffe') in 0.015258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.169200 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c02f45d467f055d031590780a69512') in 0.018689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.712949 seconds.
+  path: Assets/Scripts/Pause menu.cs
+  artifactKey: Guid(946ab1de7f96702468ce8f899117081c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pause menu.cs using Guid(946ab1de7f96702468ce8f899117081c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a088d991431cd8ba0f3326f449af15') in 0.005229 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.694 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.3 MB.
+System memory in use after: 207.3 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 2474.
+Total: 6.353300 ms (FindLiveObjects: 0.477100 ms CreateObjectMapping: 0.264100 ms MarkObjects: 5.101100 ms  DeleteObjects: 0.507300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.051 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 207.4 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2477.
+Total: 7.418700 ms (FindLiveObjects: 0.514600 ms CreateObjectMapping: 0.248800 ms MarkObjects: 6.140500 ms  DeleteObjects: 0.512400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 589.555451 seconds.
+  path: Assets/Scripts/Pause menu.cs
+  artifactKey: Guid(946ab1de7f96702468ce8f899117081c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pause menu.cs using Guid(946ab1de7f96702468ce8f899117081c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdef4591028f66dd86072acd85c2e5d8') in 0.012067 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001817 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.502 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1750 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.3 MB.
+System memory in use after: 207.3 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2480.
+Total: 6.737100 ms (FindLiveObjects: 0.539300 ms CreateObjectMapping: 0.280100 ms MarkObjects: 5.423700 ms  DeleteObjects: 0.491000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.149470 seconds.
+  path: Assets/Scripts/Pause.cs
+  artifactKey: Guid(b35c9f162738a434e91e98de2bbf1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pause.cs using Guid(b35c9f162738a434e91e98de2bbf1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003713 seconds  code(4) message(Build asset version error: assets/scripts/pause.cs in SourceAssetDB has modification time of '2021-04-26T03:53:35.0611053Z' while content on disk has modification time of '2021-04-26T03:53:43.7128561Z')
+  ERROR: Build asset version error: assets/scripts/pause.cs in SourceAssetDB has modification time of '2021-04-26T03:53:35.0611053Z' while content on disk has modification time of '2021-04-26T03:53:43.7128561Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.569 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2484.
+Total: 6.106400 ms (FindLiveObjects: 0.443000 ms CreateObjectMapping: 0.166200 ms MarkObjects: 5.025300 ms  DeleteObjects: 0.469400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.659211 seconds.
+  path: Assets/Scripts/Pause.cs
+  artifactKey: Guid(b35c9f162738a434e91e98de2bbf1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pause.cs using Guid(b35c9f162738a434e91e98de2bbf1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eadfdc03078f70994efce3a9bd83f79') in 0.015255 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.354 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 207.4 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2487.
+Total: 14.663800 ms (FindLiveObjects: 0.640800 ms CreateObjectMapping: 0.301600 ms MarkObjects: 11.751400 ms  DeleteObjects: 1.963700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.783015 seconds.
+  path: Assets/Scripts/Pause.cs
+  artifactKey: Guid(b35c9f162738a434e91e98de2bbf1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pause.cs using Guid(b35c9f162738a434e91e98de2bbf1dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793caa833ef1de0c66cbef0e47e50eea') in 0.027352 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.753 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2490.
+Total: 6.777400 ms (FindLiveObjects: 0.421100 ms CreateObjectMapping: 0.227600 ms MarkObjects: 5.629000 ms  DeleteObjects: 0.498000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.862 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 207.4 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2493.
+Total: 6.931900 ms (FindLiveObjects: 0.392000 ms CreateObjectMapping: 0.177500 ms MarkObjects: 5.734900 ms  DeleteObjects: 0.624800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.928 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2496.
+Total: 6.743100 ms (FindLiveObjects: 0.552600 ms CreateObjectMapping: 0.236500 ms MarkObjects: 5.460000 ms  DeleteObjects: 0.491400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 299.719587 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcb0aa67667f8ccdb6a548f433e24b4') in 0.093043 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.103 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 207.4 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 2499.
+Total: 6.552300 ms (FindLiveObjects: 0.505800 ms CreateObjectMapping: 0.218000 ms MarkObjects: 5.318700 ms  DeleteObjects: 0.506800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002707 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.181 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 4.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2502.
+Total: 32.043500 ms (FindLiveObjects: 2.433500 ms CreateObjectMapping: 1.788300 ms MarkObjects: 24.759800 ms  DeleteObjects: 3.044700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.644 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 207.4 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2505.
+Total: 6.548000 ms (FindLiveObjects: 0.394500 ms CreateObjectMapping: 0.195500 ms MarkObjects: 5.462800 ms  DeleteObjects: 0.492900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 313.524764 seconds.
+  path: Assets/Scripts/Main.cs
+  artifactKey: Guid(34fa8ef5ff4085d468f6eb5ad514be2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Main.cs using Guid(34fa8ef5ff4085d468f6eb5ad514be2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433b9f5f4ec8ca646ac74ea8c22ecf85') in 0.013636 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.245 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2508.
+Total: 30.402200 ms (FindLiveObjects: 2.752600 ms CreateObjectMapping: 2.585000 ms MarkObjects: 22.785100 ms  DeleteObjects: 2.267900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.076904 seconds.
+  path: Assets/Scripts/Main.cs
+  artifactKey: Guid(34fa8ef5ff4085d468f6eb5ad514be2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Main.cs using Guid(34fa8ef5ff4085d468f6eb5ad514be2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427105a3d092f298c7fcff9eaebcf199') in 0.054649 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.244 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2511.
+Total: 6.738600 ms (FindLiveObjects: 0.408200 ms CreateObjectMapping: 0.194000 ms MarkObjects: 5.626500 ms  DeleteObjects: 0.507200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.228024 seconds.
+  path: Assets/Scenes/1.unity
+  artifactKey: Guid(4b0d5e3d6b275944d97bbc5535ad11f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1.unity using Guid(4b0d5e3d6b275944d97bbc5535ad11f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7804ac6d65c0e7487da8fa4969f27ed7') in 0.017348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.386270 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9686eb95493a37fd6fdbbd1bc8db8a') in 0.007193 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003413 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.230 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2514.
+Total: 25.099300 ms (FindLiveObjects: 3.279400 ms CreateObjectMapping: 2.075300 ms MarkObjects: 18.765800 ms  DeleteObjects: 0.969400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.455327 seconds.
+  path: Assets/Prefab/Canvas.prefab
+  artifactKey: Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas.prefab using Guid(578e2135d5681eb48984b81bd097f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6463ca4c3551b00df2b456f32460163') in 0.138367 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001846 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.059 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 22.510000 ms (FindLiveObjects: 1.114100 ms CreateObjectMapping: 1.429000 ms MarkObjects: 19.351100 ms  DeleteObjects: 0.609700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004395 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.264 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2520.
+Total: 7.541200 ms (FindLiveObjects: 0.531000 ms CreateObjectMapping: 0.249300 ms MarkObjects: 6.282900 ms  DeleteObjects: 0.475800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 230.705786 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact Smoke.mat
+  artifactKey: Guid(450dd918846b28b408e044f16f827449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact Smoke.mat using Guid(450dd918846b28b408e044f16f827449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46affe0fba5d3683b07929bafc348a5') in 2.932820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Materials/MuzzleFlash01.mat
+  artifactKey: Guid(a8cb413d77ceb054abf10c2c6ee66337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Materials/MuzzleFlash01.mat using Guid(a8cb413d77ceb054abf10c2c6ee66337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33d30712ee19e487142281de74d697a') in 1.095536 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.249 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.8 MB.
+System memory in use after: 207.9 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 7.379300 ms (FindLiveObjects: 0.477800 ms CreateObjectMapping: 0.233600 ms MarkObjects: 6.158900 ms  DeleteObjects: 0.506700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.827 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.9 MB.
+System memory in use after: 207.9 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 17.742500 ms (FindLiveObjects: 1.066300 ms CreateObjectMapping: 0.553800 ms MarkObjects: 14.699300 ms  DeleteObjects: 1.415400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.970642 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0941def259c445543b1678a782ddbe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0941def259c445543b1678a782ddbe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c893720441b03bb01eefb6a88ecd7b11') in 0.039774 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.300 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.9 MB.
+System memory in use after: 207.9 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2563.
+Total: 22.375600 ms (FindLiveObjects: 2.566600 ms CreateObjectMapping: 1.833400 ms MarkObjects: 16.997400 ms  DeleteObjects: 0.965400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.653380 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0941def259c445543b1678a782ddbe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0941def259c445543b1678a782ddbe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe0f7547705f012fa4c391da8bd1b94') in 0.034142 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003035 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.263 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.9 MB.
+System memory in use after: 207.9 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 7.095600 ms (FindLiveObjects: 0.451400 ms CreateObjectMapping: 0.285800 ms MarkObjects: 5.850000 ms  DeleteObjects: 0.506100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.233366 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(0941def259c445543b1678a782ddbe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(0941def259c445543b1678a782ddbe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ce6e8c47c23310649b115adeaa1675') in 0.010230 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002417 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.912 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.0 MB.
+System memory in use after: 208.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2569.
+Total: 16.459200 ms (FindLiveObjects: 1.728900 ms CreateObjectMapping: 0.558400 ms MarkObjects: 12.970300 ms  DeleteObjects: 1.195300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.440 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.0 MB.
+System memory in use after: 208.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2572.
+Total: 7.633200 ms (FindLiveObjects: 0.908600 ms CreateObjectMapping: 0.447900 ms MarkObjects: 5.729100 ms  DeleteObjects: 0.544500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001879 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.381 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 6.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.0 MB.
+System memory in use after: 208.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2575.
+Total: 28.469400 ms (FindLiveObjects: 2.183600 ms CreateObjectMapping: 2.077700 ms MarkObjects: 22.514800 ms  DeleteObjects: 1.687000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.570 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.0 MB.
+System memory in use after: 208.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2578.
+Total: 25.068500 ms (FindLiveObjects: 2.389200 ms CreateObjectMapping: 0.825300 ms MarkObjects: 20.688100 ms  DeleteObjects: 1.151700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.012 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 4.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.0 MB.
+System memory in use after: 208.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 22.242300 ms (FindLiveObjects: 2.147200 ms CreateObjectMapping: 1.271400 ms MarkObjects: 17.136100 ms  DeleteObjects: 1.668600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.871 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.0 MB.
+System memory in use after: 208.0 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2584.
+Total: 12.495400 ms (FindLiveObjects: 0.593400 ms CreateObjectMapping: 0.262700 ms MarkObjects: 10.892300 ms  DeleteObjects: 0.743600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1360.930355 seconds.
+  path: Assets/Ak47MachineGunBurs PE401604.mp3
+  artifactKey: Guid(0e6aa1f8bef9a584b9f09db02966a57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ak47MachineGunBurs PE401604.mp3 using Guid(0e6aa1f8bef9a584b9f09db02966a57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3aa36f89c6aa0831209e28f1d28d8c') in 7.656368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 390.092867 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b73d565f956b61bfc267c94f12a98a') in 0.010914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 424.546078 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982c5b3a76b51875c3475e4cbd46500a') in 0.004611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.038431 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e861ba1620768a33dc5f444031e351c8') in 0.003679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.507965 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747d623be222572ae014ba43e9217e14') in 0.006335 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000832 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.205 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.1 MB.
+System memory in use after: 208.1 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2590.
+Total: 3.969100 ms (FindLiveObjects: 0.490400 ms CreateObjectMapping: 0.242800 ms MarkObjects: 2.994000 ms  DeleteObjects: 0.241100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.986082 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd748ca3ce0db5efe3d238fb579d1428') in 0.004593 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.1 MB.
+System memory in use after: 208.1 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2593.
+Total: 13.803100 ms (FindLiveObjects: 0.521200 ms CreateObjectMapping: 1.147400 ms MarkObjects: 11.416300 ms  DeleteObjects: 0.715300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.073859 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c0c1728bed1afb9e8cb948e4953c4b') in 0.010441 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000790 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.1 MB.
+System memory in use after: 208.1 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2596.
+Total: 19.652500 ms (FindLiveObjects: 2.563000 ms CreateObjectMapping: 0.961300 ms MarkObjects: 15.527400 ms  DeleteObjects: 0.594400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.823601 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd906a5bc5fc139b3baa437edbb2f792') in 0.014464 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.1 MB.
+System memory in use after: 208.1 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2599.
+Total: 4.082400 ms (FindLiveObjects: 0.395400 ms CreateObjectMapping: 0.157000 ms MarkObjects: 3.276200 ms  DeleteObjects: 0.252500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.031349 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d48a2a6b94352c52f7621b4c418f5c8') in 0.006691 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.1 MB.
+System memory in use after: 208.1 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2602.
+Total: 3.659100 ms (FindLiveObjects: 0.607800 ms CreateObjectMapping: 0.143500 ms MarkObjects: 2.645500 ms  DeleteObjects: 0.261300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.843247 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09d3b7152c7d7f587713d8bcdd8a7ee') in 0.004454 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.1 MB.
+System memory in use after: 208.2 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2605.
+Total: 13.370700 ms (FindLiveObjects: 1.906100 ms CreateObjectMapping: 1.030900 ms MarkObjects: 10.049400 ms  DeleteObjects: 0.381400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.840218 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(28a4b53df3a627643a8c343269d54c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b13c901bc2dd8924b524b65ad1763d') in 0.010296 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.1 MB.
+System memory in use after: 208.2 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2608.
+Total: 4.311500 ms (FindLiveObjects: 0.606000 ms CreateObjectMapping: 0.224800 ms MarkObjects: 3.229600 ms  DeleteObjects: 0.250000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.466 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.1 MB.
+System memory in use after: 208.2 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2611.
+Total: 15.078100 ms (FindLiveObjects: 1.382200 ms CreateObjectMapping: 0.283800 ms MarkObjects: 12.452600 ms  DeleteObjects: 0.955800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.2 MB.
+System memory in use after: 208.3 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2614.
+Total: 15.314300 ms (FindLiveObjects: 2.246400 ms CreateObjectMapping: 1.218600 ms MarkObjects: 11.316300 ms  DeleteObjects: 0.527400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001081 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.3 MB.
+System memory in use after: 208.3 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2617.
+Total: 4.647100 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.118500 ms MarkObjects: 3.886100 ms  DeleteObjects: 0.324500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 718.115380 seconds.
+  path: Assets/AK47 Machine Gun-3741-Free-Loops.com.mp3
+  artifactKey: Guid(4c0e159e5f4225c41a2c3ba3f0bb2bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AK47 Machine Gun-3741-Free-Loops.com.mp3 using Guid(4c0e159e5f4225c41a2c3ba3f0bb2bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bbfbe711553b03f273ad22d7d9f439') in 6.222196 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.3 MB.
+System memory in use after: 208.3 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2621.
+Total: 6.550800 ms (FindLiveObjects: 1.413600 ms CreateObjectMapping: 0.291900 ms MarkObjects: 4.448800 ms  DeleteObjects: 0.391400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.707 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.3 MB.
+System memory in use after: 208.3 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2624.
+Total: 4.387200 ms (FindLiveObjects: 0.543000 ms CreateObjectMapping: 0.145800 ms MarkObjects: 3.451900 ms  DeleteObjects: 0.245600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.609089 seconds.
+  path: Assets/Scripts/sound.cs
+  artifactKey: Guid(ad28e9c71a692364285969320243b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/sound.cs using Guid(ad28e9c71a692364285969320243b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3b1a11ab3482ff10f0035833a7c138') in 0.012164 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.3 MB.
+System memory in use after: 208.3 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2628.
+Total: 3.814400 ms (FindLiveObjects: 0.385000 ms CreateObjectMapping: 0.202400 ms MarkObjects: 2.979700 ms  DeleteObjects: 0.246200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.468454 seconds.
+  path: Assets/Scripts/sound.cs
+  artifactKey: Guid(ad28e9c71a692364285969320243b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/sound.cs using Guid(ad28e9c71a692364285969320243b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0537fd63bd84a701685463c131e2ba1f') in 0.007846 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.176 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.3 MB.
+System memory in use after: 208.4 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 4.327400 ms (FindLiveObjects: 0.525600 ms CreateObjectMapping: 0.151000 ms MarkObjects: 3.397400 ms  DeleteObjects: 0.251900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.617318 seconds.
+  path: Assets/Scripts/sound.cs
+  artifactKey: Guid(ad28e9c71a692364285969320243b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/sound.cs using Guid(ad28e9c71a692364285969320243b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb15416d54311b7d3f8907d7edcdd665') in 0.004864 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001439 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.5 MB.
+System memory in use after: 208.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2634.
+Total: 12.483500 ms (FindLiveObjects: 1.746800 ms CreateObjectMapping: 1.245600 ms MarkObjects: 9.170300 ms  DeleteObjects: 0.315200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.389 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 208.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2637.
+Total: 4.143300 ms (FindLiveObjects: 0.835400 ms CreateObjectMapping: 0.148900 ms MarkObjects: 2.893200 ms  DeleteObjects: 0.264900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.499283 seconds.
+  path: Assets/Scripts/sound.cs
+  artifactKey: Guid(ad28e9c71a692364285969320243b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/sound.cs using Guid(ad28e9c71a692364285969320243b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730260d147576b5dbe8fd7f87f8ae124') in 0.014632 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 208.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2640.
+Total: 4.995300 ms (FindLiveObjects: 0.411800 ms CreateObjectMapping: 0.148700 ms MarkObjects: 4.164700 ms  DeleteObjects: 0.268300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 208.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2643.
+Total: 6.481000 ms (FindLiveObjects: 0.483400 ms CreateObjectMapping: 0.215000 ms MarkObjects: 5.261400 ms  DeleteObjects: 0.517100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 208.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 11.553200 ms (FindLiveObjects: 2.401400 ms CreateObjectMapping: 0.913400 ms MarkObjects: 7.892300 ms  DeleteObjects: 0.342500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 208.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 4.521100 ms (FindLiveObjects: 0.621100 ms CreateObjectMapping: 0.214500 ms MarkObjects: 3.465700 ms  DeleteObjects: 0.218700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 208.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 14.459900 ms (FindLiveObjects: 3.767300 ms CreateObjectMapping: 1.139500 ms MarkObjects: 9.079100 ms  DeleteObjects: 0.466100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 208.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2655.
+Total: 18.256700 ms (FindLiveObjects: 2.541000 ms CreateObjectMapping: 0.909900 ms MarkObjects: 13.418900 ms  DeleteObjects: 1.379400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 208.6 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 3.807800 ms (FindLiveObjects: 0.498600 ms CreateObjectMapping: 0.160500 ms MarkObjects: 2.862600 ms  DeleteObjects: 0.285100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 886.420105 seconds.
+  path: Assets/Scenes/Player 1.prefab
+  artifactKey: Guid(d5e06ca8240d8764ba332deb869f968e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Player 1.prefab using Guid(d5e06ca8240d8764ba332deb869f968e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670c5cbaf4630927c4f638b9f70a0cda') in 8.462614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Scenes/1.unity
+  artifactKey: Guid(4b0d5e3d6b275944d97bbc5535ad11f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1.unity using Guid(4b0d5e3d6b275944d97bbc5535ad11f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e53a648acd45252cfe6f4d3f331f41d') in 0.008943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 301.873055 seconds.
+  path: Assets/Scenes/2.unity
+  artifactKey: Guid(069e251fa68695f449770a318089974c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2.unity using Guid(069e251fa68695f449770a318089974c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2747c1c664f5b7cea62b46aefcee77') in 0.068840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 187.923504 seconds.
+  path: Assets/Scenes/3.unity
+  artifactKey: Guid(1465aeea936f7fd409b9176044ab9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3.unity using Guid(1465aeea936f7fd409b9176044ab9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5cfafaf5e97588dd59fdbb13809bf6') in 0.005964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 241.624899 seconds.
+  path: Assets/Scenes/4.unity
+  artifactKey: Guid(553dd7e6e02c14b48a81a5d378434c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/4.unity using Guid(553dd7e6e02c14b48a81a5d378434c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7f5a182d22f2e3982da8b106332299') in 0.006957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 597.010911 seconds.
+  path: Assets/Scenes/bullet.prefab
+  artifactKey: Guid(cee4423d336704744af74666fc3acac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/bullet.prefab using Guid(cee4423d336704744af74666fc3acac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f96f2729af88b16b58bfe2f9dc9705') in 0.185992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.432646 seconds.
+  path: Assets/Scenes/bullet.prefab
+  artifactKey: Guid(cee4423d336704744af74666fc3acac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/bullet.prefab using Guid(cee4423d336704744af74666fc3acac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc4026729f999ae6184d0cf85f5330a') in 1.323120 seconds 
