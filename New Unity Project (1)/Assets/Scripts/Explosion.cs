@@ -12,11 +12,13 @@ public class Explosion : MonoBehaviour
 
     public GameObject explosionEffect;
     public bool hasExploded = false;
+    public AudioClip _sound;    // this lets you drag in an audio file in the inspector
+    private AudioSource audio;
 
 
     void OnTriggerEnter(Collider player)
     {
-        if (player.tag == "Player" && !hasExploded)
+        if (player.tag == "Player1" && !hasExploded)
         {
             Explode();
             hasExploded = true;
@@ -25,6 +27,7 @@ public class Explosion : MonoBehaviour
 
     public void TakeDamage(float amount)
     {
+        
         health -= amount;
         if (health <= 0f)
         {
@@ -35,7 +38,9 @@ public class Explosion : MonoBehaviour
     void Explode()
     {
         Instantiate(explosionEffect, transform.position, transform.rotation);
-
+        audio = gameObject.AddComponent<AudioSource>(); //adds an AudioSource to the game object this script is attached to
+        audio.clip = _sound;
+        audio.Play();
         Collider[] colliders = Physics.OverlapSphere(transform.position, blastRadius);
         foreach (Collider nearbyObject in colliders)
         {
