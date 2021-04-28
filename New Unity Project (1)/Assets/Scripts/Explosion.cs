@@ -16,9 +16,9 @@ public class Explosion : MonoBehaviour
     private AudioSource audio;
 
 
-    void OnTriggerEnter(Collider player)
+    void OnTriggerEnter(Collider Player)
     {
-        if (player.tag == "Player1" && !hasExploded)
+        if (Player.tag == "Player" && !hasExploded)
         {
             Explode();
             hasExploded = true;

@@ -7,7 +7,7 @@ public class Turret : MonoBehaviour
     private GameObject target;
     private bool targetLocked;
     public GameObject partToRotate;
-
+    public AudioSource audio;
     public float fireTimer;
     public GameObject firePoint;
     private bool shotReady = true;
@@ -38,10 +38,13 @@ public class Turret : MonoBehaviour
 
     void Shoot()
     {
+        audio = GetComponent<AudioSource>();
+        audio.Play();
         Transform bullet = Instantiate(bulletPrefab.transform, firePoint.transform.position, Quaternion.identity);
         bullet.transform.rotation = firePoint.transform.rotation;
         shotReady = false;
         StartCoroutine(FireRate());
+
     }
 
     IEnumerator FireRate()
