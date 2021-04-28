@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2681,10 +2681,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ac7ed0068a9144e86207566449804a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 70
-  damage: 50
-  explosionRadius: 0
-  impactEffect: {fileID: 2067638026}
 --- !u!1 &321399187
 GameObject:
   m_ObjectHideFlags: 0
@@ -6241,13 +6237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 917208be1d05b4a4eb7813f624767205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 30
-  fireRate: 2
-  enemyTag: Player
-  partToRotate: {fileID: 807466459}
-  turnSpeed: 5
-  bulletPrefab: {fileID: 292197318}
-  firePoint: {fileID: 1464662528}
 --- !u!23 &807466457
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6338,11 +6327,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807466455}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 18.200954, y: 8.222466, z: 69.37121}
+  m_Center: {x: 4.335112, y: -3.6112335, z: 34.185608}
 --- !u!1 &808359323
 GameObject:
   m_ObjectHideFlags: 0
@@ -16100,12 +16089,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044061276}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2067638026 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2137938724145862247, guid: f992311e6e4e440479e5c48f8738859b,
-    type: 3}
-  m_PrefabInstance: {fileID: 2137099064447507246}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2079106415
 GameObject:
   m_ObjectHideFlags: 0
