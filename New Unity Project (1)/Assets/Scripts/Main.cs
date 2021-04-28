@@ -18,6 +18,8 @@ public class Main : MonoBehaviour
       if(Input.GetKeyDown("b"))
         {
             SceneManager.LoadScene(0);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
