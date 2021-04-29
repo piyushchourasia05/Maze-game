@@ -116,7 +116,7 @@ MonoBehaviour:
   partToRotate: {fileID: 888694018331353518}
   audio: {fileID: 0}
   fireTimer: 0
-  firePoint: {fileID: 90914263460246200, guid: d5e06ca8240d8764ba332deb869f968e, type: 3}
+  firePoint: {fileID: 8736434137247143320}
   bulletPrefab: {fileID: 5344295068237656644, guid: d144420e9200637439b63d4e87d90aeb,
     type: 3}
 --- !u!82 &3066028133266278247

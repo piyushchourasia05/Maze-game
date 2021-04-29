@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6481,6 +6481,7 @@ Transform:
   m_Children:
   - {fileID: 1654761091}
   - {fileID: 292197322}
+  - {fileID: 2032931702}
   m_Father: {fileID: 1052970202}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6499,7 +6500,7 @@ MonoBehaviour:
   partToRotate: {fileID: 807466455}
   audio: {fileID: 807466462}
   fireTimer: 0
-  firePoint: {fileID: 90914263460246200, guid: d5e06ca8240d8764ba332deb869f968e, type: 3}
+  firePoint: {fileID: 2032931701}
   bulletPrefab: {fileID: 5344295068237656644, guid: d144420e9200637439b63d4e87d90aeb,
     type: 3}
 --- !u!65 &807466461
@@ -16672,6 +16673,36 @@ PrefabInstance:
       objectReference: {fileID: 875114347}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 981c4a4c282141d4f9ba283378156e00, type: 3}
+--- !u!1 &2032931701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2032931702}
+  m_Layer: 0
+  m_Name: Fire Point (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2032931702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032931701}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: -8.511108, y: -1.2275829, z: 58.27288}
+  m_LocalScale: {x: 0.45635012, y: 0.45635012, z: 0.45635012}
+  m_Children: []
+  m_Father: {fileID: 807466459}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2044061276
 GameObject:
   m_ObjectHideFlags: 0
