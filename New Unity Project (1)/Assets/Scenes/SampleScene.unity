@@ -541,7 +541,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1506,7 +1506,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GAME NAME
+  m_Text: CLICK
 --- !u!222 &1768699812
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1527,6 +1527,7 @@ GameObject:
   - component: {fileID: 1771866893}
   - component: {fileID: 1771866895}
   - component: {fileID: 1771866896}
+  - component: {fileID: 1771866897}
   m_Layer: 0
   m_Name: conytol
   m_TagString: Untagged
@@ -1582,6 +1583,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 049007759b259d746954ebde4df3e6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1771866897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771866892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cb64acd06f03a74880f996e1bf714fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1902405737
@@ -1799,7 +1812,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2042735087}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1771866897}
+        m_TargetAssemblyTypeName: end1, Assembly-CSharp
+        m_MethodName: quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2042735087
 MonoBehaviour:
   m_ObjectHideFlags: 0
