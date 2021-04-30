@@ -17,9 +17,9 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(float amount)
     {
-        startHealth -= amount;
+        health -= amount;
         healthBar.fillAmount = health / startHealth;
-        if(startHealth <= 0)
+        if (health <= 0)
         {
             Die();
         }        

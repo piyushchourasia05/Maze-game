@@ -15,24 +15,12 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        damage = 2;
+        
         if (other.tag == "Player")
         {
-            target = other.gameObject;
-            target.GetComponent<Health>().health -= damage;
+            other.gameObject.GetComponent<Health>().TakeDamage(damage);
+
             Destroy(this.gameObject);
-            Damage(GetComponent<Collider>().transform);
         }
-        if(other.tag == null)
-        {
-            damage = 2;
-        }
-    }
-
-    void Damage(Transform Player)
-    {
-        Health p =  Player.GetComponent<Health>();
-
-        p.TakeDamage(5);
     }
 }
