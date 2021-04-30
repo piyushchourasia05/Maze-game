@@ -1,23 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
+    public float startHealth;
     public float health;
+    public Image healthBar;
 
-
-    void Update()
+    void Start()
     {
-        if(health <= 0)
-        {
-            TakeDamage();
-        }
+        health = startHealth;
     }
 
-    public void TakeDamage()
+    public void TakeDamage(int amount)
     {
-        Debug.Log("Damage Taken");
-        Destroy(this.gameObject);
+        startHealth -= amount;
+        healthBar.fillAmount = health / startHealth;
+        if(startHealth <= 0)
+        {
+            Die();
+        }        
+    }
+
+    public void Die()
+    {
+        Debug.Log("Player is dead");
     }
 }

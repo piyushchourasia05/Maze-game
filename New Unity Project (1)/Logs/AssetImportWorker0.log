@@ -15,11 +15,11 @@ D:/Unity/Maze-game/New Unity Project (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62505
+53289
 Successfully changed project path to: D:/Unity/Maze-game/New Unity Project (1)
 D:/Unity/Maze-game/New Unity Project (1)
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 324.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 160.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
 [Subsystems] Discovering subsystems at path E:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -37,11 +37,5 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: E:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003685 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.86 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
