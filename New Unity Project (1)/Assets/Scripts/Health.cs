@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class Health : MonoBehaviour
         health = startHealth;
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(float amount)
     {
         startHealth -= amount;
         healthBar.fillAmount = health / startHealth;
